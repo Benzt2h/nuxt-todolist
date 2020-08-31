@@ -36,7 +36,7 @@ export default {
           this.todoList[i] = this.text
       }
       this.editTodoList(this.todoList)
-      this.$router.push({ name: 'indexlet' })
+      this.$router.push({ name: 'index' })
       /* TODO: ถ้าเป็นแาเรย์ออฟเจ็กเขียนแบบนี้ */
       //   let arr = [{ id: '1' }, { id: '2' }]
       //   arr = arr.map((x) => {
